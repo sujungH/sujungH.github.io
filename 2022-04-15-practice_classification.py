@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "practice_classification!"
+---
+
+
 # -*- coding: utf-8 -*-
 """practice_classification.ipynb
 
