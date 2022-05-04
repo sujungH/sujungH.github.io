@@ -1,8 +1,3 @@
----
-title: "Classification!"
-
----
-
 
 1. Import the packages you need to import your data and visualize it, also import `SMOTE` from `imblearn`.
 
