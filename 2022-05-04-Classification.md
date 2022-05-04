@@ -1,6 +1,6 @@
 ---
 title: "Classification!"
-date: 2022-05-04 08:26:28 -0400
+date: 2022-05-04 
 categories: 
 ---
 
