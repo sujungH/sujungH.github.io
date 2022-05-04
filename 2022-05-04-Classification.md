@@ -1,7 +1,6 @@
 ---
 title: "Classification!"
-date: 2022-05-04 
-categories: 
+
 ---
 
 
