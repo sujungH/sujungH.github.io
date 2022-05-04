@@ -1,3 +1,10 @@
+---
+title: "Classification!"
+date: 2022-05-04 08:26:28 -0400
+categories: 
+---
+
+
 1. Import the packages you need to import your data and visualize it, also import `SMOTE` from `imblearn`.
 
     ```python
