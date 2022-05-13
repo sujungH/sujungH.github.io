@@ -352,13 +352,6 @@ ufo-model.pkl
 ```
 
 
-      File "C:\Users\Public\Documents\ESTsoft\CreatorTemp/ipykernel_8272/3519781781.py", line 1
-        web-app/
-                ^
-    SyntaxError: invalid syntax
-    
-
-
 3.web-app 폴더 에 생성할 첫 번째 파일 은 requirements.txt 파일입니다. JavaScript 앱의 package.json 과 마찬가지로 이 파일은 앱에 필요한 종속성을 나열합니다. requirements.txt 에 다음 행을 추가하십시오.
 
 
@@ -369,45 +362,20 @@ numpy
 flask
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    C:\Users\Public\Documents\ESTsoft\CreatorTemp/ipykernel_8272/4013773155.py in <module>
-    ----> 1 scikit-learn
-          2 pandas
-          3 numpy
-          4 flask
-    
-
-    NameError: name 'scikit' is not defined
-
-
 4.이제 web-app 으로 이동하여 이 파일을 실행합니다 .
 
 
 ```python
 cd web-app
 ```
-
-    [WinError 2] 지정된 파일을 찾을 수 없습니다: 'web-app'
-    C:\Users\PC
     
-
 5.터미널 유형 pip install에서 requirements.txt 에 나열된 라이브러리를 설치하려면 다음을 입력하세요 .
 
 
 ```python
 pip install -r requirements.txt
 ```
-
-    Note: you may need to restart the kernel to use updated packages.
     
-
-    ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
-    
-
 6.이제 앱을 완성하기 위해 세 개의 파일을 더 만들 준비가 되었습니다.
 
 -1)루트에 app.py 를 만듭니다 .
@@ -449,14 +417,6 @@ input {
 }
 ```
 
-
-      File "C:\Users\Public\Documents\ESTsoft\CreatorTemp/ipykernel_8272/3489425428.py", line 1
-        body {
-             ^
-    SyntaxError: invalid syntax
-    
-
-
 8.다음으로 index.html 파일 을 빌드 합니다.
 
 
@@ -492,13 +452,6 @@ input {
   </body>
 </html>
 ```
-
-
-      File "C:\Users\Public\Documents\ESTsoft\CreatorTemp/ipykernel_8272/2738382715.py", line 1
-        <!DOCTYPE html>
-        ^
-    SyntaxError: invalid syntax
-    
 
 
 마지막으로, 모델 소비와 예측 표시를 구동하는 Python 파일을 빌드할 준비가 되었습니다.
@@ -541,24 +494,4 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-     * Serving Flask app "__main__" (lazy loading)
-     * Environment: production
-    [31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
-    [2m   Use a production WSGI server instead.[0m
-     * Debug mode: on
-    
-
-     * Restarting with watchdog (windowsapi)
-    
-
-
-    An exception has occurred, use %tb to see the full traceback.
-    
-
-    SystemExit: 1
-    
-
-
-    C:\Users\PC\anaconda3\lib\site-packages\IPython\core\interactiveshell.py:3452: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.
-      warn("To exit: use 'exit', 'quit', or Ctrl-D.", stacklevel=1)
     
