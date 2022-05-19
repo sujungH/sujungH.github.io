@@ -496,7 +496,9 @@ if __name__ == "__main__":
 10. 실제 구현 이후
 주소:http://127.0.0.1:5000/
 ![화면 캡처 2022-05-19 131016](https://user-images.githubusercontent.com/103700013/169202546-35c4d364-4f66-4fff-8ff6-1505e428fba5.png)
+
 <실제 구현 파이참 환경>
+
 ![화면 캡처 2022-05-19 131139](https://user-images.githubusercontent.com/103700013/169202707-5b5daeee-d5c9-41c0-9a3a-913286eba594.png)
 
     
